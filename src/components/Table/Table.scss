@@ -1,0 +1,81 @@
+.box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.table-head {
+    width: 100%;
+    &_checkbox {
+        width: 58px;
+        height: 50px;
+    }
+    &_avatar {
+        width: 67px;
+        height: 50px;
+    }
+    &_name {
+        width: 432px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+    &_email {
+        width: 22rem;
+    }
+    &_email > p{
+        // width: 236px;
+        // height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    &_title {
+        width: 203px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+    &_amount {
+        width: 306px;
+        height: 50px;
+    }
+    &_status {
+        width: 235px;
+        height: 50px;
+    }
+    &_action {
+        width: 115px;
+        height: 50px;
+    }
+}
+
+tr {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    color: #6C757D;
+}
+
+
+
+.spinner {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid #ccc;
+    border-top-color: #33a5ff;
+    animation: spin 1s ease-in-out infinite;
+  }
+  
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+

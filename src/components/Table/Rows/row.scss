@@ -1,0 +1,58 @@
+
+.checkbox {
+    width: 20px;
+    height: 20px;
+}
+.checkbox0 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.avatar {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.amount > p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.status {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+        &_text {
+            width: 45px;
+            height: 22px;
+            background: #DC3545;
+            color: #FFFFFF;
+            font-size: 14px;
+            line-height: 22px;
+            padding: 2px 10px;
+            border-radius: 25px;
+        }
+    }
+
+    .action {
+        width: 115px;
+        height: 49px;
+        &_inner {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+.td {
+    color: #6C757D;
+}
+
+
+

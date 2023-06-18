@@ -1,0 +1,46 @@
+$form-max-width: 500px;
+$form-font-family: Arial, sans-serif;
+
+form {
+  max-width: $form-max-width;
+  margin: 0 auto;
+  font-family: $form-font-family;
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+  }
+  
+  .formSubmit {
+    background-color: #4CAF50;
+    width: 9rem;
+    height: 3rem;
+    text-align: center;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+    &:hover {
+      background-color: #3e8e41;
+    }
+  }
+}
